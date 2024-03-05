@@ -98,7 +98,7 @@ Configuration files for training MAS-Net on each datasets are available [here](c
 To train, test and run demo, see the example scripts at [`scripts/`](scripts/):
 
 ## Trained models
-- MAS-Net R50 on KINS (TBA)
+- MAS-Net R50 on KINS (<a href="https://pan.baidu.com/s/1qMpM_hYvGror7R_puT87RA">here</a>). Extraction code：vl54
 - MAS-Net R50 on D2SA (TBA)
 - MAS-Net R50 on COCOA-cls (TBA)
 
