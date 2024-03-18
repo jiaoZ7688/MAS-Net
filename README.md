@@ -32,9 +32,11 @@ source activate MAS-Net
 
 conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
 pip install ninja yacs cython matplotlib tqdm
-pip install opencv-python==4.4.0.40
+pip install opencv-python
 pip install scikit-image
-pip install timm==0.4.12
+pip install timm
+pip install setuptools
+pip install torch-dct
 
 # coco api
 git clone https://github.com/cocodataset/cocoapi.git
@@ -45,8 +47,8 @@ python setup.py build_ext install
 git clone https://github.com/jiaoZ7688/MAS-Net
 cd MAS-Net/
 python3 setup.py build develop
-pip install setuptools==59.5.0
-pip install torch-dct
+(!!! Detectron2 must be installed successfully !!!)
+
 ```
 ### 2. Data preparation
 #### KINS dataset
