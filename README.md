@@ -22,7 +22,7 @@ Table of Contents
 <div align = 'None'>
   <img src="figure/figure.jpg" width="100%" />
 </div>
-The figure above illustrates the prediction results of MAS-Net.. The main implementation of this network can be foundd [here](detectron2/modeling/roi_heads).
+The figure above illustrates the prediction results of MAS-Net.
 
 ## Usage
 ### 1. Installation
