@@ -43,9 +43,9 @@ git clone https://github.com/cocodataset/cocoapi.git
 cd cocoapi/PythonAPI
 python setup.py build_ext install
 
-
 git clone https://github.com/jiaoZ7688/MAS-Net
 cd MAS-Net/
+pip install -r requirements.txt
 python3 setup.py build develop
 (!!! Detectron2 must be installed successfully !!!)
 
