@@ -1,6 +1,6 @@
 Pillow==9.0.1
 matplotlib
-pycocotools>=2.0.2
+pycocotools==2.0.7
 termcolor>=1.1
 yacs>=0.1.8
 tabulate
