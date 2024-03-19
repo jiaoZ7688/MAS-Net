@@ -12,7 +12,6 @@ from detectron2.utils.events import get_event_storage
 from detectron2.utils.logger import log_first_n
 
 from ..backbone import Backbone, build_backbone
-from ..pixel_decoder import build_pixel_decoder
 from ..postprocessing import detector_postprocess
 from ..proposal_generator import build_proposal_generator
 from ..roi_heads import build_roi_heads
